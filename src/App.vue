@@ -1,7 +1,19 @@
-<template></template>
+<template>
+  <div>
+    <router-view></router-view>
+    <van-tabbar route></van-tabbar>
+  </div>
+</template>
 
 <script>
-export default {};
+import vanTabbar from "./views/tabbar";
+
+export default {
+  name: "App",
+  components: {
+    vanTabbar,
+  },
+};
 </script>
 
 <style lang="scss">
