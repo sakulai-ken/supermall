@@ -1,14 +1,12 @@
-<template>
-  <van-tabbar-item>
-    <slot name="item-icon"></slot>
-    <slot name="item-text"></slot>
-  </van-tabbar-item>
-</template>
+<template></template>
 
 <script>
-export default {};
+export default {
+  /*  <van-tabbar-item>
+    <slot name="item-icon"></slot>
+    <slot name="item-text"></slot>
+  </van-tabbar-item> */
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
